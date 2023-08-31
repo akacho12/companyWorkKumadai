@@ -1,0 +1,203 @@
+/* root */
+:root{
+    --black:#0A0404;
+    --white:#fefefe;
+}
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* section-top */
+.top{
+    background-color: var(--white);
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    z-index: 1000000;
+    text-align: center
+}
+.top img{
+    width: 600px;
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 6px;
+}
+.top .btn{
+    display: inline-block;
+    position: absolute;
+    right: 40px;
+    top: 10px;
+    width: 240px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #272659;
+    cursor: pointer;
+}
+.top .btn::before{
+    content: "";
+    width: 20px;
+    height: 50px;
+    background-color: #F3C91F;
+    position: absolute;
+    right: 0;
+}
+.top .btn a{
+    text-decoration: none;
+    color: var(--white);
+}
+
+
+/* section-hero */
+.hero{
+    background-image: url("images/main-Bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.heroText{
+    padding-top: 140px;
+    text-align: center;
+}
+.heroText h2{
+    color: var(--white);
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.6;
+}
+.heroText img{
+    display: block;
+    margin: 0 auto;
+    padding: 50px 0;
+    width: 800px;
+}
+.heroText img:nth-child(4){
+    width: 500px;
+}
+
+
+
+/* section-program */
+.program{
+    background-color: var(--black);
+    width: 100%;
+    height: 2600px;
+    padding: 30px 0;
+}
+.programTitle{
+    font-family: 'Noto Serif JP', serif;
+    color: var(--white);
+    text-align: center;
+    font-size: 1.6rem;
+}
+.line-container{
+    display: block;
+    margin-top: 30px;
+    position: relative;
+}
+.line-container svg{
+    display: block;
+    margin: 0 auto;
+    height: 100%;
+    z-index: -10000;
+}
+    /* section-program-program */ 
+    .programs{
+        position: absolute;
+        display: block;
+        top: 0;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .programBk{
+        color: var(--white);
+        background-color: var(--black);
+        border: 2px solid var(--white);
+        border-radius: 10px;
+        width: 1000px;
+        margin: 0 auto;
+        margin-top: 60px;
+        padding: 30px 0;
+        opacity: 1;
+    }
+    .programBk h3{
+        font-size: 1.2rem;
+        margin: 16px 0;
+        font-weight: 500;
+        /* background-color: var(--white); */
+        color: var(--white);
+        width: 200px;
+        margin: 0 auto;
+        padding: 12px 0;
+    }
+    .programBk h2{
+        font-size: 1.7rem;
+        margin: 30px 0;
+        font-weight: 500;
+        line-height: 1.6;
+        color: rgb(231, 207, 69);
+    }
+    .programBk h4{
+        font-size: 1rem;
+        margin: 16px 0;
+        font-weight: 400;
+        line-height: 1.6;
+    }
+
+
+    /* section-method */
+    .method{
+        background-color: var(--black);
+        text-align: center;
+        width: 100%;
+        height: auto;
+        padding-top: 220px;
+    }
+    .methodTitle h3{
+        font-weight: 500;
+        color: var(--white);
+        text-align: center;
+        font-size: 1.8rem;
+        padding: 20px 0;
+        width: 300px;
+        /* border-bottom: 2px solid var(--white); */
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .methodTitle p{
+        color: var(--white);
+        text-align: center;
+        font-size: 1.2rem;
+        line-height: 1.8;
+    }
+    .methodTitle span{
+        color: rgb(231, 207, 69);
+    }
+    .methodTitle strong{
+        color: rgb(115, 227, 255);
+    }
+
+
+
+/* section-bottom */
+.bottom{
+    background-image: url("images/bottom-Bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    padding-top: 100px;
+    margin-top: -6px;
+}    
+.bottom p{
+    color: var(--white);
+    text-align: center;
+    line-height: 2;
+}
+.bottom p:nth-child(3){
+    color: rgb(115, 227, 255);
+}
