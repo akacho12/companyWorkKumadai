@@ -207,7 +207,12 @@
     }
 }  
 
+
 @media (max-height:600px){
+    .hero{
+        padding-bottom: 540px;
+        height: 80vh;
+    }
     .top .btn{
         display:block;
         top: 70px;
