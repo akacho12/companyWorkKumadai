@@ -184,6 +184,16 @@
         margin-top: -6px;
     }
 }
+
+@media (max-width: 500px) and (max-height: 1050px){
+    .hero{
+        padding-bottom: 120px;
+        height: 60vh;
+    }
+    .program{
+        margin-top: -6px;
+    }
+}
 @media (max-height:750px){
     .hero{
         padding-bottom: 80px;
