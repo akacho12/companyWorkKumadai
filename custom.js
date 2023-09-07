@@ -44,4 +44,15 @@ scrollSet.forEach((elem)=>{
 })
 
 
-
+gsap.fromTo(".intro p", {
+  y:100,
+  opacity:0,
+  border:2,
+},
+{ scrollTrigger: ".intro p", 
+  y: 0,
+  opacity:1,
+  ease: 'expo', 
+  duration:.8,
+}
+)

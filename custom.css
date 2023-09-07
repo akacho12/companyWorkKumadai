@@ -77,7 +77,26 @@ body {
     width: 500px;
 }
 
-
+.intro{
+    background-color: var(--black);
+    color: var(--white);
+    padding: 80px 0;
+}
+.intro p{
+    display: block;
+    width: 900px;
+    margin: 0 auto;
+    text-align: justify;
+    line-height: 2.2;
+    font-size: 18px;
+}
+.introTitle{
+    color: var(--white);
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 60px 0;
+    font-weight: 600;
+}
 
 /* section-program */
 .program{
@@ -88,10 +107,10 @@ body {
     position: relative;
 }
 .programTitle{
-    font-family: 'Noto Serif JP', serif;
     color: var(--white);
     text-align: center;
     font-size: 1.6rem;
+    font-weight: 600;
 }
 .line-container{
     display: block;

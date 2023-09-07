@@ -65,7 +65,6 @@
         font-size: 1.2rem;
         line-height: 1.6;
         padding: 0 20px;
-    
     }
     .heroText img{
         padding: 30px 0;
@@ -73,6 +72,16 @@
     }
     .heroText img:nth-child(4){
         width: 340px;
+    }
+    .intro{
+        padding: 40px 0;
+        margin-top: -6px;
+    }
+    .intro p{
+        display: block;
+        width: 320px;
+        line-height: 1.8;
+        font-size: 16px;
     }
 
     /* section-program */
@@ -176,7 +185,7 @@
 
 @media (max-height:770px){
     .hero{
-        padding-bottom: 450px;
+        padding-bottom: 350px;
         height: 70vh;
     }
 }  
